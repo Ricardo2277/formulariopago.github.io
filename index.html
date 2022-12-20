@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="preload" href="css/estilos.css">
+  <title>Formulario pago</title>
+</head>
+<header class="header">
+    <nav class="barra">
+        <label for="inp-amb">
+            <img src="img/icon-menu.png" class="menu-amb">
+        </label>
+        <input type="checkbox" id="inp-amb" checked hidden>
+        <div class="logo">
+            <a href="../index.html"><img class="logo" src="img/Logotipo.png"></a>
+        </div>
+        <div class="menu">
+            <a href="#">PRODUCTOS</a>
+            <a href="#">OFERTAS</a>
+            <a href="#">NOTICIAS</a>
+            <a href="#">CONTACTO</a>
+        </div>
+        <div class="login">
+            <h1>Tecno-Link</h1>
+            <a href="../html/login.html"><img src="img/usuario.png"></a>
+        </div>
+    
+</header>
+<body class="cuerpo">
+    <form class="formulario">
+        <div class="izq">
+            <p>Ingresa los datos de la tarjeta</p>
+        <div class="form-register">
+        <input class="controls num" name="numtarjeta" id="numtarjeta"  placeholder="Número de tarjeta">
+        <input class="controls nom" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+        <input class="controls fecha" name="fechaex" id="fechaex" placeholder="Fecha de Expiracion">
+        <input class="controls cod" name="codigo" id="codigo" placeholder="Código de seguridad">
+            <a href="#">
+            <button class="btnEnv" id="btnEnviar">Continuar</button>
+            </a>
+        </div>
+        </div>
+        <div class="resumen">
+
+            <div class="compra">
+                <p>Resumen de compra</p>
+            </div>
+            <div class="linea"></div>
+        
+            <div class="espacio">
+                <div class="derecha">
+                    <p>Productos</p>
+                    <p>Envío</p>
+                    <div class="linea2"></div>
+                    <p>Pagas</p>
+                </div>
+                        
+                <div class="izquierda">
+                    <p>$5000.00</p>
+                    <p>Gratis</p>
+                    <div class="linea2"></div>
+                    <p>$5000.00</p>
+                </div>
+            </div>
+           
+        </div>
+</form>
+</body>
+<div class="abajo">
+    <p>Pagas:</p>
+    <p>$5000.00</p>
+    </div>
+
+<footer class="footer">
+    <div class="logo-f">
+        <a href="index.html"><img src="img/Logotipo.png" width="120px"></a>
+    </div>
+    <div class="redes-s">
+        <a href="#"><img src="img/facebook.png" width="25px"></a>
+        <a href="#"><img src="img/twitter.png" width="25px"></a>
+        <a href="#"><img src="img/instagram.png" width="25px"></a>
+    </div>
+    <div class="listas">
+        <ul class="ul1">
+            <li >PRODUCTOS</li>
+            <li class="sub-li"><a href="#">PC gaming</a></li>
+            <li class="sub-li"><a href="#">LapTop gaming</a></li>
+            <li class="sub-li"><a href="#">Perifericos</a></li>
+            <li class="sub-li"><a href="#">monitores</a></li>
+        </ul>
+        <ul class="ul2">
+            <li>OFERTAS</li>
+            <li class="sub-li"><a href="#">Lo nuevo del dia</a></li>
+            <li class="sub-li"><a href="#">Hasta con 40%</a></li>
+        </ul>
+        <ul class="ul3">
+            <li>NOTICIAS</li>
+            <li class="sub-li"><a href="#">Explorar</a></li>
+            <li class="sub-li"><a href="#">Conoce</a></li>
+            <li class="sub-li"><a href="#">Eventos</a></li>
+        </ul>
+        <ul class="ul4">
+            <li>CONTACTO</li>
+            <li class="sub-li"><a href="#">tecnolinkitj@gmail.com</a></li>
+            <li class="sub-li">353-111-2345</li>
+            <li class="sub-li"><a href="#">Soporte</a></li>
+        </ul>
+    </div>
+</footer>
+<script src="js/api.js"></script>
+</html>
